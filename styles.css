@@ -173,6 +173,24 @@ body{
     margin-top: -4px;
 }
 
+.speakerItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.speakerPhoto {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.speakerInfo {
+    flex: 1;
+}
+
 .conferenceDates {
     display: flex;
     align-items: center;
@@ -191,5 +209,14 @@ body{
     border-radius: 8px;
 }
 
- 
+@media (max-width: 700px) {
+    .speakerItem {
+        flex-direction: column;
+    }
 
+    .speakerPhoto {
+        width: 150px;
+        height: 150px;
+    }
+}
+ 
