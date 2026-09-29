@@ -173,12 +173,6 @@ body{
     margin-top: -4px;
 }
 
-.speakerItem {
-    display: flex;
-    align-items: flex-start;
-    gap: 25px;
-}
-
 .speakerPhoto {
     width: 180px;
     height: 180px;
