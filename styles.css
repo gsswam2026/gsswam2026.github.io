@@ -214,4 +214,40 @@ body{
         height: 150px;
     }
 }
+
+/* ========================================
+   Talk blocks
+   ======================================== */
+
+.talkBlock {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #007a86;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.talkBlockHeader {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #007a86;
+}
+
+.talkBlockHeader h2 {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+    color: #ba0c2f;
+    font-size: 24px;
+}
+
+.talkBlockHeader .sessionChair {
+    margin: 4px 0 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.talkBlock .scheduleItem {
+    margin-top: 10px;
+}
  
