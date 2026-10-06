@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graduate Student Southwest Applied Math 2026</title>
     <link rel="stylesheet" href="styles.css">
+
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+
+    <script
+        id="MathJax-script"
+        async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
 </head>
 <body>
     <div class="header">
@@ -613,11 +628,33 @@
             </p>
             <p>
                 <strong>Abstract:</strong>
-                Umair will discuss an interesting problem in applied mathematics.
+                The study presents a robust vector-valued random feature framework
+                for learning operators between separable Hilbert spaces $X$ and $Y$.
+                The target operator $G$ is estimated as
+                $G \approx R_Y \circ F \circ S_X$, where the sampling operator
+                $S_X$ and recovery operator $R_Y$ are constructed using either
+                principal component analysis (PCA) or probabilistic principal
+                component analysis (PPCA). The finite-
+                dimensional map F is estimated by equipping the appropriate spaces with a re-
+                producing kernel Hilbert space (RKHS) structure and learning F using vector-
+                valued random features. We establish theoretical error bounds on clean test
+                data when the model is trained on noisy data. The random features in this
+                study consist of two components: the frequencies, which are sampled from ei-
+                ther a Gaussian or a Cauchy distribution, and the phase shift, which is always
+                sampled from a uniform distribution. We conduct numerical experiments on
+                a range of benchmark problems with training data contaminated by relative
+                Gaussian noise, demonstrating the noise robustness of both PCA- and PPCA-
+                based sampling and recovery operators. Finally, we compare the performance
+                of our methodology to existing methods in the literature.
             </p>
         </div>
 
         <div class="speakerItem" id="nadia-kazi">
+
+            <img src="portraits/nadia-kazi.png"
+                class="speakerPhoto"
+                alt="nadia-kazi">
+
             <h2>Nadia Kazi</h2>
             <p class="speakerMeta">
                 <strong>Arizona State University</strong> &middot; A survey of a variational approach to the proof of Alexandrov’s Soap Bubble Theorem
