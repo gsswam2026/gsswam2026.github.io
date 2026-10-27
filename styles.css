@@ -92,7 +92,7 @@ body{
 }
 
 .content{
-    max-width: 900px;
+    max-width: 1350px;
     margin: 0 auto;
     padding: 40px 20px 80px;
     color: #333;
@@ -141,16 +141,18 @@ body{
     font-weight: 800;
     color: #007a86;
     min-width: 80px;
+    font-size: 20px;
 }
 
 .scheduleTitle{
     flex: 1;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .scheduleSpeaker{
     font-style: italic;
     color: #555;
+    font-size: 24px;
 }
 
 .speakerItem{
@@ -243,7 +245,7 @@ body{
 
 .talkBlockHeader .sessionChair {
     margin: 4px 0 0;
-    font-size: 16px;
+    font-size: 20px;
     color: #555;
 }
 
